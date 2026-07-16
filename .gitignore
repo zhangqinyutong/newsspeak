@@ -1,0 +1,16 @@
+# 虚拟环境
+venv/
+# 密钥环境变量
+.env
+# Chroma向量数据库持久化文件
+chroma_db/
+# 录音音频文件
+*.wav
+# 自动化评测输出
+evals/results.json
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.log
+# Mac系统隐藏文件
+.DS_Store
